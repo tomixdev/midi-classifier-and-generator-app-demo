@@ -1,7 +1,5 @@
 # to run the app locally: streamlit run app.py
 
-import page_setup_and_password_protection
-
 from streamlit_option_menu import option_menu
 import midi_generator
 import midi_image_classifier
@@ -12,6 +10,8 @@ import tempfile
 
 import params
 import streamlit as st
+
+import page_setup_and_password_protection
 
 ########################################################################################################################
 # ----------------------------------------------Main Page---------------------------------------------------------------
