@@ -1,11 +1,8 @@
 import hmac
-import streamlit as st
 import params
 
 import streamlit as st
-st.set_page_config(page_title=params.PAGE_TITLE,
-                   page_icon=params.PAGE_ICON,
-                   layout='wide')
+
 
 
 def check_password():

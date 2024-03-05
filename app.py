@@ -9,9 +9,14 @@ import midi_preprocessing
 import tempfile
 
 import params
+
 import streamlit as st
 
-import page_setup_and_password_protection
+import password_protection
+
+st.set_page_config(page_title=params.PAGE_TITLE,
+                   page_icon=params.PAGE_ICON,
+                   layout='wide')
 
 ########################################################################################################################
 # ----------------------------------------------Main Page---------------------------------------------------------------
