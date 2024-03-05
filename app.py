@@ -6,11 +6,12 @@ import midi_image_classifier
 import time
 from datetime import datetime
 import midi_preprocessing
+
+import password_protection
+
 import tempfile
 
 import params
-
-import password_protection
 
 import streamlit as st
 
