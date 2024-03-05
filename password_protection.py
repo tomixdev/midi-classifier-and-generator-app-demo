@@ -1,8 +1,5 @@
-import hmac
-import params
-
 import streamlit as st
-
+import hmac
 
 
 def check_password():

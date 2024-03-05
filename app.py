@@ -10,9 +10,9 @@ import tempfile
 
 import params
 
-import streamlit as st
-
 import password_protection
+
+import streamlit as st
 
 st.set_page_config(page_title=params.PAGE_TITLE,
                    page_icon=params.PAGE_ICON,
